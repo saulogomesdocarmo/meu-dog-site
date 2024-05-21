@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family:'Brownista' ;
+    src: url('../fonts/Brownista.otf') format('opentype');
+    font-weight: normal;
+
+}
+
+:root{
+    --cor01:#d6ecf3;
+    --cor02:#2BA9CF;
+    --cor03:#3E8DA5;
+    --cor04:#426D7A;
+    --cor05:#384A50;
+    --cor06:#2D3133;
+
+    --black:#000000;
+    --white:#ffffff;
+
+    --font-padrao:'Arial','Verdana','Helvetica',sans-serif;
+    --font-texto: 'Montserrat',sans-serif;
+    --font-brownista:'Brownista',cursive;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main > section > p.p-home{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: var(--font-texto);
+    color: var(--cor04);
+
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+a.botao-home{
+    min-width:100px;
+    max-width: 100px;
+   
+    margin: auto;
+    padding: 10px;
+    display: block;
+    background-color: var(--cor06);
+
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: lowercase;
+
+    font-size: 1.0em;
+    font-weight: bold;
+    color: var(--cor01);
+
+    margin-bottom: 20px;
+}
+
+a.botao-home:hover{
+    background-color: var(--cor03);
+    color: var(--cor06);
+}
